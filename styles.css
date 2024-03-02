@@ -19,9 +19,9 @@ body {
 
 #mobile-app {
   border: 1px solid black;
-  max-width: 450px;
+  max-width: 545px;
   text-align: center;
-  padding: 10px 40px;
+  /*padding: 10px 40px;*/
 }
 
 .status-icons {
