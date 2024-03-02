@@ -132,3 +132,11 @@ border {
   text-align: left;
   padding-left: 10px;
 }
+
+.navbar-brand {
+  font-size: 32px !important;
+}
+
+.navbar {
+  margin-bottom: 10px;
+}
