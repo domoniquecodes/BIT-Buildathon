@@ -179,3 +179,11 @@ border {
   font-weight: 400px;
   font-size: 12px;
 }
+
+@media (max-width: 430px) {
+  .instagram-icon {
+    position: absolute;
+    bottom: 85%;
+    left: 85%;
+  }
+}
