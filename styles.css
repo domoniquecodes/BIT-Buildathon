@@ -120,15 +120,22 @@ body {
   font-style: normal;
   font-weight: 450;
   line-height: normal;
+  margin-left: 400px;
+  margin-right: 0px;
+  padding: 0;
 }
-
-.percentage-one {
-  margin-left: 10px;
+/*.percentage-one {
+  display: flex;
+  margin-left: 110px;
+  margin-top: 10px;
+  margin-right: 100px;
 }
 
 .percentage-two {
-  margin-left: 35px;
-}
+  display: flex;
+  margin-right: 105px;
+  margin-top: 10px;
+}*/
 
 .sub-heading-one {
   margin-left: 20px;
@@ -136,4 +143,17 @@ body {
 
 .sub-heading-two {
   margin-right: 30px;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ellipses {
+  display: flex;
+  justify-content: center;
+  margin-right: 400px;
+  margin-left: 0;
+  padding: 0;
 }
