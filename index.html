@@ -39,84 +39,105 @@
         </div>
       </header>
       <h1>Hi Jennifer</h1>
-      <div class="container profile-box">
-        <img class="profile-pic" src="images/rosie.png" alt="" />
-        <i
-          class="fa-solid fa-circle-exclamation alert"
-          style="color: #f20808"
-        ></i>
-        <span class="profile-name">Rosie Jenkins</span>
-        <span class="profile-tag">@riseeee_kins</span>
+      <div class="profile-box">
+        <div
+          class="profile-section"
+          style="
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap: 10px;
+          "
+        >
+          <div class="profile-main">
+            <img class="profile-pic" src="images/rosie.png" alt="" />
+            <i class="fa-solid fa-circle-exclamation alert"></i>
+          </div>
+          <div class="profile-info">
+            <span>Rosie Jenkins</span>
+            <span>@riseeee_kins</span>
+          </div>
+        </div>
+
         <i class="fa-brands fa-instagram fa-2xl instagram-icon"></i>
 
-        <div class="sub-headings">
-          <span class="sub-heading-one"> Account Safety </span>
-          <span class="sub-heading-two"> DM Safety </span>
-        </div>
         <div class="percentages">
-          <span class="numbers">
-            <span class="percentage-one">92%</span>
-            <span class="percentage-two">41%</span>
-          </span>
-          <span class="ellipses">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="86"
-              height="86"
-              viewBox="0 0 86 86"
-              fill="none"
-            >
-              <path
-                d="M62.5068 10.8921C64.0642 8.32866 63.2587 4.95281 60.5196 3.7307C51.936 -0.0989533 42.2804 -1.03075 33.0401 1.16939C22.0286 3.79123 12.495 10.6492 6.50774 20.2554C0.520456 29.8617 -1.43757 41.4413 1.05847 52.482C3.55451 63.5227 10.3033 73.1339 19.8406 79.2304C29.3779 85.3269 40.9344 87.4169 52.0028 85.047C63.0713 82.6771 72.7589 76.0384 78.9638 66.5713C85.1687 57.1042 87.3904 45.5723 85.147 34.4775C83.2644 25.1673 78.3649 16.7951 71.2854 10.6125C69.0262 8.63953 65.6241 9.32579 63.9514 11.8155C62.2787 14.3052 62.9813 17.6502 65.1542 19.7178C69.8995 24.2332 73.1853 30.1254 74.5006 36.6303C76.1774 44.9225 74.5168 53.5415 69.8793 60.6172C65.2417 67.6929 58.0013 72.6546 49.7287 74.4259C41.4562 76.1971 32.8188 74.6351 25.6907 70.0786C18.5625 65.522 13.5185 58.3386 11.6529 50.0868C9.78741 41.835 11.2508 33.1804 15.7257 26.0007C20.2006 18.8211 27.326 13.6954 35.556 11.7358C42.0121 10.1986 48.7393 10.707 54.8297 13.1181C57.6186 14.2222 60.9495 13.4555 62.5068 10.8921Z"
-                fill="url(#paint0_angular_61_440)"
-                fill-opacity="0.3"
-              />
-              <defs>
-                <radialGradient
-                  id="paint0_angular_61_440"
-                  cx="0"
-                  cy="0"
-                  r="1"
-                  gradientUnits="userSpaceOnUse"
-                  gradientTransform="translate(43 43) rotate(-57.5288) scale(45.6344)"
-                >
-                  <stop stop-color="#38D135" />
-                  <stop offset="0.38" stop-color="#DDEA41" />
-                  <stop offset="0.68" stop-color="#D7573B" />
-                  <stop offset="1" stop-color="#FF0000" stop-opacity="0.27" />
-                </radialGradient>
-              </defs>
-            </svg>
+          <!-- first  -->
+          <div class="dash-box">
+            <span class="sub-heading-one"> Account Safety </span>
 
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="86"
-              height="86"
-              viewBox="0 0 86 86"
-              fill="none"
-            >
-              <path
-                d="M62.5068 10.8921C64.0642 8.32866 63.2587 4.95281 60.5196 3.7307C51.936 -0.0989533 42.2804 -1.03075 33.0401 1.16939C22.0286 3.79123 12.495 10.6492 6.50774 20.2554C0.520456 29.8617 -1.43757 41.4413 1.05847 52.482C3.55451 63.5227 10.3033 73.1339 19.8406 79.2304C29.3779 85.3269 40.9344 87.4169 52.0028 85.047C63.0713 82.6771 72.7589 76.0384 78.9638 66.5713C85.1687 57.1042 87.3904 45.5723 85.147 34.4775C83.2644 25.1673 78.3649 16.7951 71.2854 10.6125C69.0262 8.63953 65.6241 9.32579 63.9514 11.8155C62.2787 14.3052 62.9813 17.6502 65.1542 19.7178C69.8995 24.2332 73.1853 30.1254 74.5006 36.6303C76.1774 44.9225 74.5168 53.5415 69.8793 60.6172C65.2417 67.6929 58.0013 72.6546 49.7287 74.4259C41.4562 76.1971 32.8188 74.6351 25.6907 70.0786C18.5625 65.522 13.5185 58.3386 11.6529 50.0868C9.78741 41.835 11.2508 33.1804 15.7257 26.0007C20.2006 18.8211 27.326 13.6954 35.556 11.7358C42.0121 10.1986 48.7393 10.707 54.8297 13.1181C57.6186 14.2222 60.9495 13.4555 62.5068 10.8921Z"
-                fill="url(#paint0_angular_61_440)"
-                fill-opacity="0.3"
-              />
-              <defs>
-                <radialGradient
-                  id="paint0_angular_61_440"
-                  cx="0"
-                  cy="0"
-                  r="1"
-                  gradientUnits="userSpaceOnUse"
-                  gradientTransform="translate(43 43) rotate(-57.5288) scale(45.6344)"
-                >
-                  <stop stop-color="#38D135" />
-                  <stop offset="0.38" stop-color="#DDEA41" />
-                  <stop offset="0.68" stop-color="#D7573B" />
-                  <stop offset="1" stop-color="#FF0000" stop-opacity="0.27" />
-                </radialGradient>
-              </defs>
-            </svg>
-          </span>
+            <div class="circle">
+              <svg
+                class="svg-element"
+                xmlns="http://www.w3.org/2000/svg"
+                width="86"
+                height="86"
+                viewBox="0 0 86 86"
+                fill="none"
+              >
+                <path
+                  d="M62.5068 10.8921C64.0642 8.32866 63.2587 4.95281 60.5196 3.7307C51.936 -0.0989533 42.2804 -1.03075 33.0401 1.16939C22.0286 3.79123 12.495 10.6492 6.50774 20.2554C0.520456 29.8617 -1.43757 41.4413 1.05847 52.482C3.55451 63.5227 10.3033 73.1339 19.8406 79.2304C29.3779 85.3269 40.9344 87.4169 52.0028 85.047C63.0713 82.6771 72.7589 76.0384 78.9638 66.5713C85.1687 57.1042 87.3904 45.5723 85.147 34.4775C83.2644 25.1673 78.3649 16.7951 71.2854 10.6125C69.0262 8.63953 65.6241 9.32579 63.9514 11.8155C62.2787 14.3052 62.9813 17.6502 65.1542 19.7178C69.8995 24.2332 73.1853 30.1254 74.5006 36.6303C76.1774 44.9225 74.5168 53.5415 69.8793 60.6172C65.2417 67.6929 58.0013 72.6546 49.7287 74.4259C41.4562 76.1971 32.8188 74.6351 25.6907 70.0786C18.5625 65.522 13.5185 58.3386 11.6529 50.0868C9.78741 41.835 11.2508 33.1804 15.7257 26.0007C20.2006 18.8211 27.326 13.6954 35.556 11.7358C42.0121 10.1986 48.7393 10.707 54.8297 13.1181C57.6186 14.2222 60.9495 13.4555 62.5068 10.8921Z"
+                  fill="url(#paint0_angular_61_440)"
+                  fill-opacity="0.3"
+                />
+                <defs>
+                  <radialGradient
+                    id="paint0_angular_61_440"
+                    cx="0"
+                    cy="0"
+                    r="1"
+                    gradientUnits="userSpaceOnUse"
+                    gradientTransform="translate(43 43) rotate(-57.5288) scale(45.6344)"
+                  >
+                    <stop stop-color="#38D135" />
+                    <stop offset="0.38" stop-color="#DDEA41" />
+                    <stop offset="0.68" stop-color="#D7573B" />
+                    <stop offset="1" stop-color="#FF0000" stop-opacity="0.27" />
+                  </radialGradient>
+                </defs>
+              </svg>
+              <span class="percentage-number">92%</span>
+            </div>
+          </div>
+
+          <!-- second -->
+
+          <div class="dash-box">
+            <span class="sub-heading-two"> DM Safety </span>
+
+            <div class="circle">
+              <svg
+                class="svg-element"
+                xmlns="http://www.w3.org/2000/svg"
+                width="86"
+                height="86"
+                viewBox="0 0 86 86"
+                fill="none"
+              >
+                <path
+                  d="M62.5068 10.8921C64.0642 8.32866 63.2587 4.95281 60.5196 3.7307C51.936 -0.0989533 42.2804 -1.03075 33.0401 1.16939C22.0286 3.79123 12.495 10.6492 6.50774 20.2554C0.520456 29.8617 -1.43757 41.4413 1.05847 52.482C3.55451 63.5227 10.3033 73.1339 19.8406 79.2304C29.3779 85.3269 40.9344 87.4169 52.0028 85.047C63.0713 82.6771 72.7589 76.0384 78.9638 66.5713C85.1687 57.1042 87.3904 45.5723 85.147 34.4775C83.2644 25.1673 78.3649 16.7951 71.2854 10.6125C69.0262 8.63953 65.6241 9.32579 63.9514 11.8155C62.2787 14.3052 62.9813 17.6502 65.1542 19.7178C69.8995 24.2332 73.1853 30.1254 74.5006 36.6303C76.1774 44.9225 74.5168 53.5415 69.8793 60.6172C65.2417 67.6929 58.0013 72.6546 49.7287 74.4259C41.4562 76.1971 32.8188 74.6351 25.6907 70.0786C18.5625 65.522 13.5185 58.3386 11.6529 50.0868C9.78741 41.835 11.2508 33.1804 15.7257 26.0007C20.2006 18.8211 27.326 13.6954 35.556 11.7358C42.0121 10.1986 48.7393 10.707 54.8297 13.1181C57.6186 14.2222 60.9495 13.4555 62.5068 10.8921Z"
+                  fill="url(#paint0_angular_61_440)"
+                  fill-opacity="0.3"
+                />
+                <defs>
+                  <radialGradient
+                    id="paint0_angular_61_440"
+                    cx="0"
+                    cy="0"
+                    r="1"
+                    gradientUnits="userSpaceOnUse"
+                    gradientTransform="translate(43 43) rotate(-57.5288) scale(45.6344)"
+                  >
+                    <stop stop-color="#38D135" />
+                    <stop offset="0.38" stop-color="#DDEA41" />
+                    <stop offset="0.68" stop-color="#D7573B" />
+                    <stop offset="1" stop-color="#FF0000" stop-opacity="0.27" />
+                  </radialGradient>
+                </defs>
+              </svg>
+              <span class="percentage-number">41%</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
