@@ -13,7 +13,7 @@ h1 {
 }
 
 body {
-  padding: 0 40px;
+  /*padding: 0 40px;*/
   text-align: center;
 }
 
@@ -21,7 +21,11 @@ body {
   border: 1px solid black;
   max-width: 545px;
   text-align: center;
-  /*padding: 10px 40px;*/
+  padding: 10px 40px;
+}
+
+border {
+  margin: 50px;
 }
 
 .status-icons {
