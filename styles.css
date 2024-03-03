@@ -153,6 +153,10 @@ border {
   color: black;
 }
 
+.learn-more {
+  color: black;
+}
+
 .footer-links {
   display: flex;
   justify-content: space-around;
