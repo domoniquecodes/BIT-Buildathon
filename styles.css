@@ -13,16 +13,19 @@ h1 {
   position: relative;
 }
 
-body {
-  /*padding: 0 40px;*/
-  text-align: center;
-}
-
 #mobile-app {
-  border: 1px solid black;
+  border: 1px solid white;
   max-width: 545px;
   text-align: center;
   padding: 10px 40px;
+}
+
+#rosie-dm-safety-page {
+  border: 1px solid white;
+  max-width: 545px;
+  text-align: center;
+  padding: 10px 40px;
+  background: linear-gradient(180deg, #4e5fd2 0%, #28316c 100%);
 }
 
 border {
@@ -66,21 +69,10 @@ border {
   border-radius: 50px;
 }
 
-.profile-pic-rosie {
-  height: 60px !important;
-  width: 60px;
-  aspect-ratio: 60/60;
-  border: 2px solid white;
-  border-radius: 50px;
-}
-
 .instagram-icon {
   position: absolute;
   bottom: 85%;
   left: 90%;
-  /*display: flex;
-  margin-top: -185px;
-  margin-left: 275px;*/
 }
 
 .account-safety-info {
@@ -300,13 +292,7 @@ border {
 }
 
 .expand-link {
-  color: white;
-  font-size: 16px;
-  font-weight: bold;
-  display: flex;
-  justify-content: right;
-  margin-top: 20px;
-  margin-bottom: -18px;
+  margin-top: 10px;
 }
 
 @media (max-width: 430px) {
