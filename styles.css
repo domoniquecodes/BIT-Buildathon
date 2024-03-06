@@ -493,3 +493,17 @@ hr {
   display: flex;
   justify-content: space-around;
 }
+
+.checkmark {
+  color: #303b81;
+}
+
+@media (max-width: 430px) {
+  .feedback-button.noted-button {
+    padding: 10px 40px;
+  }
+
+  #safety-rating {
+    margin-left: 75px;
+  }
+}
