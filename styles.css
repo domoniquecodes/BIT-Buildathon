@@ -21,11 +21,15 @@ h1 {
 }
 
 #rosie-dm-safety-page {
-  border: 1px solid white;
   max-width: 545px;
   text-align: center;
   padding: 10px 40px;
+}
+
+#full-page {
+  border: 1px solid white;
   background: linear-gradient(180deg, #4e5fd2 0%, #28316c 100%);
+  max-width: 545px;
 }
 
 border {
@@ -121,6 +125,26 @@ border {
   padding-right: 38px;
   padding-left: 38px;
 }
+
+#safety-rating {
+  position: relative;
+  background-color: white;
+  margin-top: -7px;
+  margin-bottom: 31px;
+  padding-top: 10px;
+  padding-bottom: none;
+  border-radius: 10px;
+  padding-right: 22px;
+  padding-left: 22px;
+  margin-left: 85px;
+
+  /*background-color: white;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: 130px;
+  border-radius: 10px;*/
+}
+
 .safe {
   color: #0bcd07;
   padding-top: 5px;
@@ -133,6 +157,14 @@ border {
   margin-left: 48px;
 }
 
+.page-alert-vector {
+  display: flex;
+  margin-bottom: -18px;
+  margin-left: 60px;
+  padding-top: 8px;
+  padding-right: 28px;
+}
+
 .alert-number {
   font-size: 32px;
   color: #e01f1f;
@@ -143,6 +175,7 @@ border {
   font-size: 16px;
   color: #e01f1f;
   padding-top: none;
+  padding-bottom: 10px;
 }
 
 .percentage-number {
@@ -275,6 +308,9 @@ border {
   color: #4e5fd2;
 }
 
+.non-active-link {
+  color: #80868a;
+}
 .home-label {
   margin-left: -1px;
 }
@@ -302,6 +338,21 @@ border {
   color: #80868a;
   font-weight: 400px;
   font-size: 12px;
+}
+
+.footer-menu-rosie-page {
+  border: 1px solid rgba(159, 156, 156, 0.5);
+  border-radius: 20px 20px 0px 0px;
+  border-bottom: 0ch;
+  box-shadow: 0px 0px 10px 0px rgba(128, 134, 138, 0.3);
+  padding-top: 15px;
+  margin: none;
+  color: #80868a;
+  font-weight: 400px;
+  font-size: 12px;
+  max-width: 545px;
+  background: white;
+  margin-top: 55px;
 }
 
 .expand-link {
@@ -339,12 +390,102 @@ a:hover {
   display: flex;
   margin-left: 80px;
   margin-top: -65px;
+  margin-bottom: 32px;
 }
 
 .page-instagram-icon {
   color: white;
   display: flex;
-  margin-top: -71px;
-  margin-left: 440px;
-  padding-bottom: 50px;
+  margin-top: 35px;
+  margin-left: 185px;
+}
+
+.safety-title {
+  text-align: left;
+  color: white;
+  font-weight: 450;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.safety-sentence {
+  text-align: left;
+  color: white;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.summary-title {
+  font-size: 16px;
+  font-weight: 450;
+  color: white;
+  margin-bottom: 6px;
+  text-align: left;
+}
+
+.summary-paragraph {
+  font-size: 13px;
+  font-weight: 300;
+  color: white;
+  text-align: left;
+}
+
+.safety-parameters {
+  text-decoration: none;
+}
+
+hr {
+  background-color: white;
+}
+
+.parameter-details {
+  text-align: left;
+  margin-left: 53px;
+  font-size: 11px;
+  font-weight: 300;
+}
+
+.parameter-title {
+  margin-bottom: 3px;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 450;
+  margin-left: 25px;
+}
+
+.parameter-alert {
+  display: flex;
+  margin-bottom: -38px;
+}
+
+.parameter-description {
+  margin-left: 25px;
+}
+
+.not-found {
+  color: #b6b6b6;
+}
+
+.found {
+  color: #fff;
+}
+
+.feedback-button {
+  padding: 12px 60px;
+  margin-top: 24px;
+  margin-right: 50px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  color: #fff;
+  background: #303b81;
+}
+
+.noted-button {
+  padding: 12px 60px;
+  margin-top: 24px;
+  margin-left: 15px;
+  color: #303b81;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #303b81;
 }
