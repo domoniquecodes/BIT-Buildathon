@@ -21,7 +21,7 @@ h1 {
 }
 
 #rosie-dm-safety-page {
-  max-width: 545px;
+  max-width: 430px;
   text-align: center;
   padding: 10px 40px;
 }
@@ -29,7 +29,7 @@ h1 {
 #full-page {
   border: 1px solid white;
   background: linear-gradient(180deg, #4e5fd2 0%, #28316c 100%);
-  max-width: 545px;
+  max-width: 430px;
 }
 
 border {
@@ -135,7 +135,7 @@ border {
   border-radius: 10px;
   padding-right: 15px;
   padding-left: 15px;
-  margin-left: 85px;
+  margin-left: 20px;
 
   /*background-color: white;
   padding-right: 20px;
@@ -470,7 +470,7 @@ hr {
 }
 
 .feedback-button {
-  padding: 12px 60px;
+  padding: 10px 40px;
   /*margin-top: 24px;
   margin-right: 50px;*/
   border-radius: 4px;
@@ -480,7 +480,7 @@ hr {
 }
 
 .noted-button {
-  padding: 12px 60px;
+  padding: 10px 40px;
   /*margin-top: 24px;
   margin-left: 15px;*/
   color: #303b81;
@@ -491,23 +491,33 @@ hr {
 
 #account-page-buttons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding-top: 24px;
 }
 
 .checkmark {
   color: #303b81;
 }
 
-@media (max-width: 430px) {
+/*@media (max-width: 429px) {
   .feedback-button.noted-button {
     padding: 10px 40px;
   }
 
   #safety-rating {
-    margin-left: 75px;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: ;
   }
 
-  #instagram-icon {
-    left: 70%;
+  .alert-word {
+    padding-bottom: none;
   }
-}
+
+  .instagram-icon {
+    position: absolute;
+    bottom: 85%;
+    left: 85%;
+  }
+}*/
