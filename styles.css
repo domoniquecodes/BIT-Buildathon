@@ -127,15 +127,14 @@ border {
 }
 
 #safety-rating {
-  position: relative;
   background-color: white;
   margin-top: -7px;
   margin-bottom: 31px;
   padding-top: 10px;
   padding-bottom: none;
   border-radius: 10px;
-  padding-right: 22px;
-  padding-left: 22px;
+  padding-right: 15px;
+  padding-left: 15px;
   margin-left: 85px;
 
   /*background-color: white;
@@ -175,7 +174,7 @@ border {
   font-size: 16px;
   color: #e01f1f;
   padding-top: none;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 .percentage-number {
@@ -472,8 +471,8 @@ hr {
 
 .feedback-button {
   padding: 12px 60px;
-  margin-top: 24px;
-  margin-right: 50px;
+  /*margin-top: 24px;
+  margin-right: 50px;*/
   border-radius: 4px;
   border: 1px solid #fff;
   color: #fff;
@@ -482,10 +481,15 @@ hr {
 
 .noted-button {
   padding: 12px 60px;
-  margin-top: 24px;
-  margin-left: 15px;
+  /*margin-top: 24px;
+  margin-left: 15px;*/
   color: #303b81;
   background: #fff;
   border-radius: 4px;
   border: 1px solid #303b81;
+}
+
+#account-page-buttons {
+  display: flex;
+  justify-content: space-around;
 }
