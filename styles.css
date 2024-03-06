@@ -21,7 +21,8 @@ h1 {
 }
 
 #rosie-dm-safety-page {
-  max-width: 430px;
+  /*max-width: 430px;*/
+
   text-align: center;
   padding: 10px 40px;
 }
@@ -29,14 +30,14 @@ h1 {
 #full-page {
   border: 1px solid white;
   background: linear-gradient(180deg, #4e5fd2 0%, #28316c 100%);
-  max-width: 430px;
+  /*max-width: 430px;*/
 }
 
 border {
   margin: 50px;
 }
 
-.status-icons {
+status-icons {
   display: inline;
   padding-left: 90px;
 }
@@ -127,7 +128,7 @@ border {
 }
 
 #safety-rating {
-  background-color: white;
+  /*background-color: white;
   margin-top: -7px;
   margin-bottom: 31px;
   padding-top: 10px;
@@ -135,13 +136,23 @@ border {
   border-radius: 10px;
   padding-right: 15px;
   padding-left: 15px;
-  margin-left: 20px;
+  margin-left: 20px;*/
+  position: relative;
+  background-color: white;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+  max-width: 30%;
+  display: block;
+  margin-left: 220px;
+}
 
-  /*background-color: white;
-  padding-right: 20px;
-  padding-left: 20px;
-  margin-left: 130px;
-  border-radius: 10px;*/
+.safety-message {
+  position: absolute;
+  max-width: 50%;
+  display: block;
 }
 
 .safe {
@@ -159,8 +170,7 @@ border {
 .page-alert-vector {
   display: flex;
   margin-bottom: -18px;
-  margin-left: 60px;
-  padding-top: 8px;
+  margin-left: 50px;
   padding-right: 28px;
 }
 
@@ -349,7 +359,7 @@ border {
   color: #80868a;
   font-weight: 400px;
   font-size: 12px;
-  max-width: 545px;
+
   background: white;
   margin-top: 55px;
 }
@@ -363,6 +373,99 @@ border {
     position: absolute;
     bottom: 85%;
     left: 85%;
+  }
+}
+
+/*540*/
+@media (min-width: 431px) {
+  #safety-rating {
+    position: relative;
+    background-color: white;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    max-width: 20%;
+    display: block;
+    margin-left: 367px;
+  }
+
+  .page-alert-vector {
+    display: flex;
+    margin-bottom: -18px;
+    margin-left: 45px;
+  }
+
+  #account-page-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 24px;
+  }
+
+  .page-instagram-icon {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 768px) {
+  .safety-rating {
+    position: relative;
+    background-color: white;
+    margin-top: 10px;
+    padding-top: 10px;
+
+    border-radius: 10px;
+    max-width: 20%;
+    display: block;
+    margin-left: 550px;
+  }
+
+  .page-alert-vector {
+    display: flex;
+    margin-bottom: -18px;
+    margin-left: 73px;
+  }
+
+  #account-page-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #safety-rating {
+    position: relative;
+    background-color: white;
+    margin-top: 10px;
+    padding-top: 10px;
+
+    border-radius: 10px;
+    max-width: 20%;
+    display: block;
+    margin-left: 800px;
+  }
+
+  .page-alert-vector {
+    margin-left: 70px;
+  }
+}
+
+@media (min-width: 1280px) {
+  #safety-rating {
+    position: relative;
+    background-color: white;
+    margin-top: 10px;
+    padding-top: 10px;
+
+    border-radius: 10px;
+    max-width: 20%;
+    display: block;
+    margin-left: 1000px;
+  }
+
+  .page-alert-vector {
+    margin-left: 98px;
   }
 }
 
@@ -396,7 +499,7 @@ a:hover {
   color: white;
   display: flex;
   margin-top: 35px;
-  margin-left: 185px;
+  margin-left: 180px;
 }
 
 .safety-title {
@@ -435,6 +538,10 @@ a:hover {
 
 hr {
   background-color: white;
+}
+
+.safety-heading {
+  margin-bottom: 60px;
 }
 
 .parameter-details {
@@ -498,26 +605,3 @@ hr {
 .checkmark {
   color: #303b81;
 }
-
-/*@media (max-width: 429px) {
-  .feedback-button.noted-button {
-    padding: 10px 40px;
-  }
-
-  #safety-rating {
-    margin-left: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: ;
-  }
-
-  .alert-word {
-    padding-bottom: none;
-  }
-
-  .instagram-icon {
-    position: absolute;
-    bottom: 85%;
-    left: 85%;
-  }
-}*/
